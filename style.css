@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Jost', sans-serif;
+
+}
+
+
+body{
+    background-image: url(./Images/img8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+span{
+    color: rgb(255, 0, 234);
+}
+
+svg:hover path {
+    fill: black;
+    transition: all ease 0.3s;
+}
+svg:active path {
+    fill: black;
+}
+  
+  
+
+.container{
+    /* background-color: rgba(0, 0, 0, 0.3); */
+     width: 600px; 
+    padding: 20px 0px;
+    margin: 120px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+
+}
+
+.para{
+    margin: 0px 20px 20px 20px ;
+    padding: 10px;
+    
+}
+q{
+    font-family: 'Satisfy', cursive;
+    font-size: larger;
+}
+p.author{
+    text-align: right;
+    margin-top: 20px;
+}
+
+button{
+    font-size: 15px;
+    padding: 10px 10px 30px 10px;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 30px;
+    border: 0px;
+    align-self: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 400ms linear 0s;
+    
+}
+
+button:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+@media all and (max-width : 636px){
+    .container{
+        width: 300px;
+    }
+}
+
+@media all and (max-width : 357px) {
+    h1{
+        
+        font-size: 20px;
+    }
+    span{
+        font-size: 20px;
+    }
+}
